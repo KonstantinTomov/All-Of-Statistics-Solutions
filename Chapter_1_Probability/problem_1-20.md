@@ -179,13 +179,16 @@ P(B) &= P(A) + P(C) \qquad \Big|\ P(C) \ge 0 \text{ from axiom 1} \\
 \end{aligned}
 $$
 
-$\left.\begin{array}{l} P(A) \ge 0 \text{ from Axiom 1} \\ A \subset \Omega \Rightarrow P(A) \le P(\Omega) = 1 \text{ from axiom 2} \end{array}\right\} \Rightarrow 0 \le P(A) \le 1$
-
-$\left.\begin{array}{l} A^c = \Omega - A \\ A \cup A^c = A \cup (\Omega - A) = \Omega \\ A \text{ disjoint from } A^c \end{array}\right\} \Rightarrow \begin{array}{l} P(A \cup A^c) = P(\Omega) \\ P(A) + P(A^c) = 1 \\ P(A^c) = 1 - P(A) \end{array}$
+```math
+\left.\begin{array}{l} P(A) \ge 0 \text{ from Axiom 1} \\ A \subset \Omega \Rightarrow P(A) \le P(\Omega) = 1 \text{ from axiom 2} \end{array}\right\} \Rightarrow 0 \le P(A) \le 1
+```
+```math
+\left.\begin{array}{l} A^c = \Omega - A \\ A \cup A^c = A \cup (\Omega - A) = \Omega \\ A \text{ disjoint from } A^c \end{array}\right\} \Rightarrow \begin{array}{l} P(A \cup A^c) = P(\Omega) \\ P(A) + P(A^c) = 1 \\ P(A^c) = 1 - P(A) \end{array}
+```
 
 $A \cap B = \emptyset$
 $\Rightarrow A$ and $B$ disjoint
-$\quad \Rightarrow P(A \cup B) = P(A) + P(B) \qquad \Big|\ $ Axiom 3 on $A_1 = A;\ A_2 = B;\ A_{i>2} = \emptyset$
+$\quad \Rightarrow P(A \cup B) = P(A) + P(B) \qquad \Big|$ Axiom 3 on $A_1 = A;\ A_2 = B;\ A_{i>2} = \emptyset$
 
 ---
 
