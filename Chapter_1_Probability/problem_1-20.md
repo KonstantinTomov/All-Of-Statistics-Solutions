@@ -152,7 +152,7 @@ $\Rightarrow$ In general if $A_n \to A \Rightarrow P(A_n) \to P(A)$
 
 > Equation (1.1) and the properties listed with it:
 > $$\mathbb{P}(\emptyset) = 0,\qquad A \subset B \Rightarrow \mathbb{P}(A) \le \mathbb{P}(B),\qquad 0 \le \mathbb{P}(A) \le 1,\qquad \mathbb{P}(A^c) = 1 - \mathbb{P}(A),$$
-> $$A \cap B = \emptyset \implies \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B). \tag{1.1}$$
+> $$A \cap B = \emptyset \implies \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B). \qquad (1.1)$$
 
 **Solution.**
 
@@ -650,7 +650,7 @@ $$
 $$
 \begin{aligned}
 P(A \mid B) &= \frac{P(A \cap B)}{P(B)} \quad \Big|\ \cdot P(B) && \text{inversely} \quad P(B \mid A) = \frac{P(B \cap A)}{P(A)} \quad \Big|\ \cdot P(A) \\
-P(A \cap B) &= P(A \mid B)P(B) && \phantom{\text{inversely} \quad} P(B \cap A) = P(B \mid A)P(A)
+P(A \cap B) &= P(A \mid B)P(B) && \qquad\qquad\qquad\quad\;\; P(B \cap A) = P(B \mid A)P(A)
 \end{aligned}
 $$
 
@@ -709,7 +709,7 @@ assume $P(A_i \mid B) \le P(A_i) \quad \forall i \in [k]$
 $$
 \begin{aligned}
 &\Rightarrow \sum_{i=1}^{k} P(A_i \mid B) \le \sum_{i=1}^{k} P(A_i) && \Big|\ A_i\text{'s are disjoint partition of } \Omega \\
-& && \phantom{\Big|\ } \text{and } P(\cdot \mid B) \text{ is also valid probability measure} \\
+& && \quad\; \text{and } P(\cdot \mid B) \text{ is also valid probability measure} \\
 &\Rightarrow P\left(\bigcup_{i=1}^{k} A_i \,\Big|\, B\right) \le P\left(\bigcup_{i=1}^{k} A_i\right) \\
 & P(\Omega \mid B) \le P(\Omega) \\
 & 1 \le 1
@@ -798,5 +798,5 @@ P(C_i \mid B_4) = \frac{P(B_4 \mid C_i)\,P(C_i)}{P(B_4)} = \frac{(1 - p_i)^3 p_i
 $$
 
 $$
-= \frac{(1 - p_i)^3 p_i}{0 + \frac{27}{256} + \frac{16}{256} + \frac{3}{256} + 0} = (1 - p_i)^3 p_i \cdot \frac{\cancel{256}}{\cancel{46}} = \frac{128 (1 - p_i)^3 p_i}{23}
+= \frac{(1 - p_i)^3 p_i}{0 + \frac{27}{256} + \frac{16}{256} + \frac{3}{256} + 0} = (1 - p_i)^3 p_i \cdot \frac{256}{46} = \frac{128 (1 - p_i)^3 p_i}{23}
 $$
