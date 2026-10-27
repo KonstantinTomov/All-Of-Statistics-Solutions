@@ -572,21 +572,26 @@ $$
 let $P(A) = 0$; $\quad BA \subset A \Rightarrow P(BA) \le P(A) = 0 \Rightarrow P(BA) = 0$
 $\qquad \Rightarrow P(BA) = P(A)P(B) \Rightarrow$ independent
 
-let $P(A) = 1$; $\quad BA = B - BA^c \Rightarrow P(BA) = P(B) - P(BA^c) \qquad \Big|\ \begin{array}{l} BA^c \subset A^c \qquad P(A^c) = 1 - P(A) = 0 \\ \Rightarrow P(BA^c) \le P(A^c) = 0 \\ \Rightarrow P(BA^c) = 0 \end{array}$
+let $P(A) = 1$:
+
+```math
+BA = B - BA^c \Rightarrow P(BA) = P(B) - P(BA^c) \qquad \Big|\ \begin{array}{l} BA^c \subset A^c \qquad P(A^c) = 1 - P(A) = 0 \\ \Rightarrow P(BA^c) \le P(A^c) = 0 \\ \Rightarrow P(BA^c) = 0 \end{array}
+```
+
 $\qquad \Rightarrow P(BA) = P(B) - 0 = P(B) \cdot 1 = P(B)P(A) \Rightarrow$ independent
 
-$\Rightarrow$ if $P(A) \in \{0, 1\}$ then $A$ independent from all other events
+$\Rightarrow$ if $P(A) \in \lbrace 0, 1 \rbrace$ then $A$ independent from all other events
 
 if $A$ independent of itself then $P(A \cap A) = P(A)P(A)$
 
-$$
+```math
 \begin{aligned}
 P(A) &= P(A)^2 \qquad \Big|\ : P(A) \neq 0 \\
 1 &= P(A)
 \end{aligned}
-$$
+```
 
-$\Rightarrow$ only possibility is $P(A) \in \{0, 1\}$
+$\Rightarrow$ only possibility is $P(A) \in \lbrace 0, 1 \rbrace$
 
 ---
 
